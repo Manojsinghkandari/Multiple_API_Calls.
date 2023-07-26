@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+function apicall1(){
+
+    fetch('https://dummyjson.com/products/1').then(res=>{
+        return res.json()
+    }).then(data=>{
+        console.log(data)
+    }).catch(err=>{
+        console.log(err)
+    })
+}
+
+function apicall2(){
+
+fetch('https://dummyjson.com/products/1').then(res=>{
+    return res.json()
+}).then(data=>{
+    console.log(data)
+}).catch(err=>{
+    console.log(err)
+})
+}
+
+function apicall3(){
+
+fetch('https://dummyjson.com/products/1').then(res=>{
+    return res.json()
+}).then(data=>{
+    console.log(data)
+}).catch(err=>{
+    console.log(err)
+})
+}
+
+function apicall4(){
+
+fetch('https://dummyjson.com/products/1').then(res=>{
+    return res.json()
+}).then(data=>{
+    console.log(data)
+}).catch(err=>{
+    console.log(err)
+})
+}
+
+function apicall5(){
+
+fetch('https://dummyjson.com/products/1').then(res=>{
+    return res.json()
+}).then(data=>{
+    console.log(data)
+}).catch(err=>{
+    console.log(err)
+})
+}
+
+    </script>
+</head>
+<body>
+    <button onclick="apicall1()">Click me 1</button>
+    <button onclick="apicall2()">Click me 2</button>
+    <button onclick="apicall3()">Click me 3</button>
+    <button onclick="apicall4()">Click me 4</button>
+    <button onclick="apicall5()">Click me 5</button>
+</body>
+</html>
